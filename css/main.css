@@ -66,30 +66,30 @@ body {
 /* start fonts */
 
 @font-face {
-    font-family: 'Roboto-Light_1';
-    src: url('../css/fonts/Roboto-Light_1.ttf');
+    font-family: 'robotolight';
+    src: url('../css/fonts/roboto-light_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-light_1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Bold_1';
-    src: url('../css/fonts/Roboto-Bold_1.ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto-LightItalic_1';
-    src: url('../css/fonts/Roboto-LightItalic_1.ttf');
+    font-family: 'robotolight_italic';
+    src: url('../css/fonts/roboto-lightitalic_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-lightitalic_1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../css/fonts/roboto-bold_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-bold_1-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* end fonts */
 
 * {
-    font-family: Roboto-Light_1, Arial, Helvetica, sans-serif;
+    font-family: robotolight, Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -111,7 +111,7 @@ a {
 }
 
 .phone {
-    font-family: Roboto-Bold_1;
+    font-family: robotobold;
     color: #ffffff;
     font-size: 22px;
     font-weight: 500;
@@ -122,7 +122,7 @@ a {
     background-color: transparent;
     border: none;
     color: #ffffff;
-    font-family: Roboto-Light_1;
+    font-family: robotolight;
     font-size: 16px;
     font-weight: 500;
     padding-left: 70px;
@@ -160,7 +160,7 @@ a {
 }
 
 .menu__text {
-    font-family: Roboto-Bold_1;
+    font-family: robotobold;
     letter-spacing: 3px;
     color: #4b73b5;
     font-size: 12px;
@@ -213,7 +213,7 @@ a:hover>.icon-crew {
 }
 
 .title__h {
-    font-family: Roboto-Bold_1;
+    font-family: robotobold;
     color: #221f1f;
     font-size: 49px;
     margin: 0px;
@@ -274,7 +274,7 @@ a:hover>.icon-crew {
 
 .tariffs__element-name {
     color: #212121;
-    font-family: Roboto-Bold_1;
+    font-family: robotobold;
     letter-spacing: 1px;
     font-weight: 700;
     text-align: center;
@@ -416,7 +416,7 @@ a:hover>.pagination__element-wrap {
     width: 234x;
     height: 50px;
     margin-top: 5px;
-    font-family: Roboto-Light_1;
+    font-family: robotolight;
     color: #ffffff;
     font-size: 14px;
     font-weight: 300;
@@ -441,7 +441,7 @@ a:hover>.pagination__element-wrap {
 }
 
 .footer__social-text {
-    font-family: Roboto-Light_1;
+    font-family: robotolight;
     color: #ffffff;
     font-size: 14px;
     margin-top: 10px;
@@ -450,12 +450,12 @@ a:hover>.pagination__element-wrap {
 
 .footer__social-pictures {
     margin-top: 10px;
- }
+}
 
 .social-pictures-list {
     list-style: none;
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
 }
 
 .social-pictures-item {
@@ -519,4 +519,3 @@ a:hover>.mail {
 }
 
 /* end footer */
-
