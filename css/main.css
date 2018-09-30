@@ -5,6 +5,35 @@
 **
 ****************************/
 
+/* start fonts */
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../css/fonts/roboto-light_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-light_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('../css/fonts/roboto-lightitalic_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-lightitalic_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../css/fonts/roboto-bold_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-bold_1-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: 'robotolight', Arial, Helvetica, sans-serif;
+}
+
+/* end fonts */
+
 /* start big blocks */
 
 html,
@@ -63,34 +92,6 @@ body {
 
 /* end big blocks */
 
-/* start fonts */
-
-@font-face {
-    font-family: 'robotolight';
-    src: url('../css/fonts/roboto-light_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-light_1-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotolight_italic';
-    src: url('../css/fonts/roboto-lightitalic_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-lightitalic_1-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'robotobold';
-    src: url('../css/fonts/roboto-bold_1-webfont.woff2') format('woff2'), url('../css/fonts/roboto-bold_1-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-/* end fonts */
-
-* {
-    font-family: robotolight, Arial, Helvetica, sans-serif;
-}
 
 a {
     text-decoration: none;
@@ -111,7 +112,7 @@ a {
 }
 
 .phone {
-    font-family: robotobold;
+    font-family: 'robotobold';
     color: #ffffff;
     font-size: 22px;
     font-weight: 500;
@@ -122,8 +123,8 @@ a {
     background-color: transparent;
     border: none;
     color: #ffffff;
-    font-family: robotolight;
-    font-size: 16px;
+    /* font-family: 'robotolight'; */
+    font-size: 14px;
     font-weight: 500;
     padding-left: 70px;
     padding-right: 0;
@@ -160,10 +161,10 @@ a {
 }
 
 .menu__text {
-    font-family: robotobold;
+    /* font-family: 'robotobold'; !important; */
     letter-spacing: 3px;
     color: #4b73b5;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     line-height: 20px;
     margin-left: 35px;
@@ -213,9 +214,10 @@ a:hover>.icon-crew {
 }
 
 .title__h {
-    font-family: robotobold;
+    /* font-family: 'robotobold'; */
     color: #221f1f;
-    font-size: 49px;
+    font-size: 45px;
+    font-style: bold;
     margin: 0px;
     padding: 0px;
 }
@@ -223,9 +225,8 @@ a:hover>.icon-crew {
 .tariffs__elements {
     list-style: none;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 23px;
     padding: 0px;
-    /* width: 100%; */
 }
 
 .tariffs__element-icon {
@@ -274,12 +275,12 @@ a:hover>.icon-crew {
 
 .tariffs__element-name {
     color: #212121;
-    font-family: robotobold;
-    letter-spacing: 1px;
-    font-weight: 700;
+    /* font-family: 'robotobold'; */
+    /* letter-spacing: 1px;
+    font-weight: 00; */
     text-align: center;
     font-size: 12px;
-    padding-top: 20px;
+    padding-top: 18px;
 }
 
 .tariffs__element-description,
@@ -288,7 +289,7 @@ a:hover>.icon-crew {
     font-size: 18px;
     font-weight: 300;
     line-height: 33px;
-    padding-top: 5px;
+    /* padding-top: 3px; */
 }
 
 .tariffs__element-item {
@@ -413,16 +414,20 @@ a:hover>.pagination__element-wrap {
 
 .footer__signature {
     float: left;
-    width: 234x;
+    width: 234px;
     height: 50px;
     margin-top: 5px;
-    font-family: robotolight;
+    font-family: 'robotolight';
     color: #ffffff;
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
     text-align: left;
     margin-left: 15px;
+}
+
+.bold {
+    font-family: 'robotobold';
 }
 
 .footer>.container>.logotype {
@@ -441,7 +446,7 @@ a:hover>.pagination__element-wrap {
 }
 
 .footer__social-text {
-    font-family: robotolight;
+    font-family: 'robotolight';
     color: #ffffff;
     font-size: 14px;
     margin-top: 10px;
