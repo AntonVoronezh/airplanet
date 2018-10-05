@@ -10,7 +10,7 @@
     background: #4b73b5;
 }
 
-.footer__container {
+.footer--container {
     min-height: 77px;
     display: flex;
     align-items: center;
@@ -29,10 +29,17 @@ text-align: left;
 margin-left: 15px;
 }
 
+.bold {
+    font-weight: 600;
+}
 
-.footer__social-text {
+.footer__right-text {
     color: #ffffff;
     font-size: 14px;
     margin-top: 10px;
     margin-right: 25px;
+}
+
+.footer__logo {
+    padding-right: 75px;
 }

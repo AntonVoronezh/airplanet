@@ -29,7 +29,7 @@
                     <!-- start header left -->
                     <div class="header__left">
                         <div class="logo header__logo">
-                            <a href="about.html" alt="тарифы компании" class="logo__link">
+                            <a href="about.html" title="тарифы компании" class="logo__link">
                                 <img src="img/logotypes/logo.png" alt="логотип компании" class="logo__img">
                             </a>
                         </div>
@@ -62,40 +62,40 @@
                 <!-- start container -->
                 <div class="container maincontent__container">
                     <!-- start sidebar -->
-                    <aside class="maincontent__aside">
+                    <aside class="aside">
                         <nav class="navigation">
-                            <!-- start menu -->
-                            <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a href="about.html" class="menu__link">
-                                        <div class="menu__icon menu__icon--main"></div>
-                                        <div class="menu__text">главная</div>
+                            <!-- start navigation -->
+                            <ul class="navigation__list">
+                                <li class="navigation__item">
+                                    <a href="about.html" class="navigation__link">
+                                        <div class="navigation__icon navigation__icon--main"></div>
+                                        <div class="navigation__text">главная</div>
                                     </a>
                                 </li>
-                                <li class="menu__item menu__item--active">
-                                    <a href="comments.html" class="menu__link">
-                                        <div class="menu__icon menu__icon--comments"></div>
-                                        <div class="menu__text">отзывы</div>
+                                <li class="navigation__item navigation__item--active">
+                                    <a href="comments.html" class="navigation__link">
+                                        <div class="navigation__icon navigation__icon--comments"></div>
+                                        <div class="navigation__text">отзывы</div>
                                     </a>
                                 </li>
-                                <li class="menu__item">
-                                    <a href="team.html" class="menu__link">
-                                        <div class="menu__icon menu__icon--crew"></div>
-                                        <div class="menu__text">экипаж</div>
+                                <li class="navigation__item">
+                                    <a href="team.html" class="navigation__link">
+                                        <div class="navigation__icon navigation__icon--crew"></div>
+                                        <div class="navigation__text">экипаж</div>
                                     </a>
                                 </li>
                             </ul>
-                            <!-- end menu -->
+                            <!-- end navigation -->
                         </nav>
                     </aside>
                     <!-- end sidebar -->
-                    <!-- start maincontent__main -->
-                    <main class="maincontent__main">
+                    <!-- start main -->
+                    <main class="main">
                         <!-- start breadcrumbs -->
                         <nav class="breadcrumbs">
                             <ul class="breadcrumbs__list">
                                 <li class="breadcrumbs__item">
-                                    <a href="about.html" alt="Главная" class="breadcrumbs__link">Главная</a>
+                                    <a href="about.html" title="Главная" class="breadcrumbs__link">Главная</a>
                                 </li>
                                 <li class="breadcrumbs__item breadcrumbs__item--black breadcrumbs--slash">
                                     /
@@ -110,85 +110,209 @@
                         <h2 class="title-h">
                             Отзывы
                         </h2>
-                         <!-- start comments elements -->
-                         <ul class="comments__list">
-                                <li class="comments__item">
-                                    <!-- start 1 element -->
-                                    <div class="comments__item-img">
-                                        <img src="img/news-img/1.png" alt="ночные перелёты дешевле" class="comments__item-pic">
-                                    </div>
-                                    <div class="comments__item-description">
-                                        <time datetime="2018-09-24" class="comments__item-date">
-                                            24.09.2018
-                                        </time>
-                                        <h3 class="comments__item-header">
-                                            Ночные перелёты дешевле!
-                                        </h3>
-                                        <p class="comments__item-text">
-                                            Летящий в ночном небе самолёт - зрелище загадочное и романтическое.
-                                            Крылатая машина величественно плывёт в вышине, мерцая разноцветными огнями,
-                                            и почему-то кажется, что она наполнена удивительными людьми, спешащими
-                                            далеко-далеко по очень важным делам.
-                                        </p>
-                                    </div>
-                                    <!-- end 1 element -->
+                        <!-- start comments elements -->
+                        <ul class="comments__list">
+                            <li class="comments__item">
+                                <!-- start 1 element -->
+                                <div class="comments__item-img">
+                                    <img src="img/comments-avatars/2.png" alt="комментарий" class="comments__item-pic">
+                                </div>
+                                <div class="comments__item-description">
+                                    <time datetime="2016-10-12" class="comments__item-date">
+                                        12.10.2016
+                                    </time>
+                                    <h3 class="comments__item-header">
+                                        Ирина Паламарчук
+                                    </h3>
+                                    <p class="comments__item-text">
+                                        Классный полет, трясло первые полчаса так, что я боялась отстегнуть ремни.
+                                        Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно
+                                        было. Рекомендую эту еомпанию, но лучше доплатить и лететь с комфортом.
+                                    </p>
+                                </div>
+                                <!-- end 1 element -->
+                            </li>
+                            <li class="comments__item">
+                                <!-- start 2 element -->
+                                <div class="comments__item-img">
+                                    <img src="img/comments-avatars/1.png" alt="комментарий" class="comments__item-pic">
+                                </div>
+                                <div class="comments__item-description">
+                                    <time datetime="2018-02-01" class="comments__item-date">
+                                        01.02.2016
+                                    </time>
+                                    <h3 class="comments__item-header">
+                                        Александр Бельков
+                                    </h3>
+                                    <p class="comments__item-text">
+                                        Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2
+                                        раза, а еду - 1 раз. Единственное, что не понравилось, как то мало места для
+                                        ног, но с этим у меня часто проблема, рост 2,1м.
+                                    </p>
+                                </div>
+                                <!-- end 2 element -->
+                            </li>
+                            <li class="comments__item">
+                                <!-- start 3 element -->
+                                <div class="comments__item-img">
+                                    <img src="img/comments-avatars/vectorsmartobject.png" alt="комментарий" class="comments__item-pic">
+                                </div>
+                                <div class="comments__item-description">
+                                    <time datetime="2015-12-22" class="comments__item-date">
+                                        22.12.2015
+                                    </time>
+                                    <h3 class="comments__item-header">
+                                        Игорь Николаенко
+                                    </h3>
+                                    <p class="comments__item-text">
+                                        Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5 часов.
+                                        Но прибавьте к этому время регистрации в аэрорпорту. Летел с женой и мы очень
+                                        проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды,
+                                        чипсы какие-то или печенье.
+                                    </p>
+                                </div>
+                                <!-- end 3 element -->
+                            </li>
+                            <li class="comments__item">
+                                <!-- start 4 element -->
+                                <div class="comments__item-img">
+                                    <img src="img/comments-avatars/3.png" alt="комментарий" class="comments__item-pic">
+                                </div>
+                                <div class="comments__item-description">
+                                    <time datetime="2015-08-14" class="comments__item-date">
+                                        14.08.2015
+                                    </time>
+                                    <h3 class="comments__item-header">
+                                        Анастасия Порядная
+                                    </h3>
+                                    <p class="comments__item-text">
+                                        За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за
+                                        аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и
+                                        всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
+                                    </p>
+                                </div>
+                                <!-- end 4 element -->
+                            </li>
+                        </ul>
+                        <!-- end comments elements -->
+                        <nav class="pagination">
+                            <div class="pagination__display">
+                                Страница 1 из 7
+                            </div>
+                            <!-- start pagination elements -->
+                            <ul class="pagination__list">
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">&lt;</div>
+                                    </a>
                                 </li>
-                                <li class="comments__item">
-                                    <!-- start 2 element -->
-                                    <div class="comments__item-img">
-                                        <img src="img/news-img/2.png" alt="путешествие в Грузию стало доступнее" class="comments__item-pic">
-                                    </div>
-                                    <div class="comments__item-description">
-                                        <time datetime="2018-08-15" class="comments__item-date">
-                                            15.08.2018
-                                        </time>
-                                        <h3 class="comments__item-header">
-                                            Путешествие в Грузию стало доступнее!
-                                        </h3>
-                                        <p class="comments__item-text">
-                                            Экскурсии по Грузии в 2018 году от русских гидов: самые интересные маршруты
-                                            в
-                                            Грузии от профессиональных гидов. Обзорные, пешеходные, автомобильные,
-                                            тематические экскурсии по интересным городам и курортам Грузии. Не
-                                            пропустите
-                                            такую возможность!
-                                        </p>
-                                    </div>
-                                    <!-- end 2 element -->
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap pagination__item-wrap--active">1</div>
+                                    </a>
                                 </li>
-                                <li class="comments__item">
-                                    <!-- start 3 element -->
-                                    <div class="comments__item-img">
-                                        <img src="img/news-img/3.png" alt="детские авиабилеты доступны для бизнесс-класса"
-                                            class="comments__item-pic">
-                                    </div>
-                                    <div class="comments__item-description">
-                                        <time datetime="2018-07-10" class="comments__item-date">
-                                            10.07.2018
-                                        </time>
-                                        <h3 class="comments__item-header">
-                                            Детские авиабилеты доступны для бизнесс-класса
-                                        </h3>
-                                        <p class="comments__item-text">
-                                            Путушествие на самолёте с детьми - небольшое испытание для родителей. Но
-                                            это не
-                                            экстримальное приключение, а обычный цивилизованный поход. Тем более,
-                                            различные
-                                            авиакомпании старются помочь скидками на детские авиабилеты, специальным
-                                            питанием и другими услугами на борту лайнера.
-                                        </p>
-                                    </div>
-                                    <!-- end 3 element -->
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">2</div>
+                                    </a>
                                 </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">3</div>
+                                    </a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">4</div>
+                                    </a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">5</div>
+                                    </a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">6</div>
+                                    </a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">7</div>
+                                    </a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__item-link">
+                                        <div class="pagination__item-wrap">&gt;</div>
+                                    </a>
+                                </li>
+
                             </ul>
-                            <!-- end comments elements -->
+                        </nav>
+                        <!-- end pagination -->
                         <!-- end comments -->
+
                     </main>
                     <!-- end maincontent__main -->
                 </div>
                 <!-- end container -->
+                <!-- start info -->
+                <div class="info">
+                    <div class="container container--info">
+                        Вопросы по бронированию белетов в нашей авиакомпании принимаются. Для этого можно оставить
+                        <a href="#" title="заявка" class="info__link">заявку на сайте</a> или же позвонить по номеру
+                        круглосуточной поддержки <span class="bold">8 (800) 00-392-10</span>.
+                    </div>
+                </div>
+                <!-- end info -->
             </div>
             <!-- end maincontent -->
+            <!-- start new comment -->
+            <div class="container container--new-comment">
+                <div class="new-comment">
+                    <h2 class="title-h">
+                        Оставить отзыв
+                    </h2>
+                    <form action="url" class="new-comment__form">
+                        <div class="new-comment__form-column-top">
+                            <div class="new-comment__form-column-top new-comment__form-column-top--left">
+                                <label for="new-comment__text">Ваше имя
+                                <input type="text" class="new-comment__text" placeholder="Андрей">
+                            </label>
+                            </div>
+                            <div class="new-comment__form-column-top new-comment__form-column-top--right">
+                                <label for="new-comment__link">Ссылка на профиль VK
+                                <input type="text" class="new-comment__link" placeholder="vk.com">
+                            </label>
+                            </div>
+                        </div>
+                        <div class="new-comment__form-column-center">
+                            <label for="new-comment__link">Текст отзыва
+                            <br>
+                            <textarea name="form" class="new-comment__textarea" placeholder="Введите сообщение"></textarea>
+                       </label>
+                        </div>
+                        <div class="new-comment__form-column-bottom">
+                            <div class="new-comment__form-column-bottom-left">
+                                Отображать фото в отзыве?
+                                <br>
+                                <label><input type="radio" name="1"> Да</label>
+                                <label><input type="radio" name="1"> Нет</label>
+                            </div>
+                            <div class="new-comment__form-column-bottom-right">
+                                <button type="button" class="new-comment__form-button">
+                                    <div class="new-comment__form-button-text">
+                                        отправить
+                                    </div>
+                                    <div class="new-comment__form-button-icon">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end new comment -->
         </div>
         <!-- end wrapper content -->
         <!-- start footer -->
@@ -204,7 +328,7 @@
                 <!-- end signature -->
                 <!-- start logo -->
                 <div class="logo footer__logo">
-                    <a href="about.html" alt="тарифы компании" class="logo__link">
+                    <a href="about.html" title="тарифы компании" class="logo__link">
                         <img src="img/logotypes/logo.png" alt="логотип компании" class="logo__img">
                     </a>
                 </div>
@@ -249,6 +373,7 @@
                     <!-- end social  -->
                 </div>
                 <!-- end container -->
+            </div>
         </footer>
         <!-- end footer -->
     </div>
