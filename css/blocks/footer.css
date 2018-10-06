@@ -10,7 +10,7 @@
     background: #4b73b5;
 }
 
-.footer--container {
+.container--footer {
     min-height: 77px;
     display: flex;
     align-items: center;
