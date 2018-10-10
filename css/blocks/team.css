@@ -8,6 +8,7 @@
 .team {
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .title-h--team {
