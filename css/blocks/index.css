@@ -86,13 +86,14 @@ body {
 }
 
 .form-button-icon {
-    height: 20px;
-    width: 20px;
     margin-left: 10px;
-    background-image: url('../../img/sidebar-icons/main_icon.png');
-    background-repeat: no-repeat;
-    background-position: center center;
     margin-top: 14px;
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -183px -10px;
 }
 
 .form-button:hover {
@@ -101,10 +102,13 @@ body {
 }
 
 .form-button:hover>.form-button-icon {
-    height: 20px;
-    width: 20px;
     margin-left: 10px;
-    background-image: url('../../img/sidebar-icons/main_icon-wait.png');
+    margin-top: 16px;
+    background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -257px -10px;
+
 }
