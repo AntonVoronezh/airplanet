@@ -113,12 +113,14 @@
 }
 
 .new-comment__form-button-icon {
-    height: 20px;
-    width: 20px;
     margin-left: 10px;
-    background-image: url('../../img/sidebar-icons/main_icon-wait.png');
+    margin-top: 3px;
+    background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -257px -10px;
 }
 
 .new-comment__form-button:hover {
@@ -127,12 +129,13 @@
 }
 
 .new-comment__form-button:hover>.new-comment__form-button-icon {
-    height: 20px;
-    width: 20px;
     margin-left: 10px;
-    background-image: url('../../img/sidebar-icons/main_icon-black.png');
+    background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -183px -10px;
 }
 
 .radio {
