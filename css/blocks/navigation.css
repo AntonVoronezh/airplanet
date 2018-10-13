@@ -44,15 +44,16 @@
     text-transform: uppercase;
 }
 
-a:hover>.navigation__text {
-    transition: color 1s;
+.navigation__text:hover {
+    transition: color 1.5s;
     color: #000000;
     
 }
 
 a:hover>.sprite-main_icon {
-
-    background-image: url('../../img/social-icon/spritesheet.png');
+    transition: filter 10s;
+    filter: grayscale(100%);
+    /* background-image: url('../../img/social-icon/spritesheet.png'); */
     background-repeat: no-repeat;
     display: block;
     width: 17px;
