@@ -45,10 +45,13 @@
 }
 
 a:hover>.navigation__text {
+    transition: color 1s;
     color: #000000;
+    
 }
 
 a:hover>.sprite-main_icon {
+
     background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
     display: block;
@@ -83,6 +86,7 @@ align-items: flex-start;
 }
 
 .navigation__item--active>.navigation__text {
+    
     color: #000000;
 }
 
